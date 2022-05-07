@@ -319,5 +319,52 @@ margin: 0;
     text-decoration: none;
   }
   
-  
- 
+
+.pure-city-program {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-self: center;
+    justify-content: space-around;
+
+}
+
+.pure-city-text {
+    align-self: center;
+}
+
+.pure-city-picture {
+    height: auto; 
+    width: 500px; 
+    box-shadow: 15px 15px 1px #68a5ff;
+
+}
+
+.pure-city-text-line {
+    max-width: 85px;
+    height: 7px;
+    background-color: #68a5ff;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.mainL {
+    display: flex;
+flex-flow: row;
+}
+.clean {
+    height: 25%;
+    width: 25%;
+    margin: 4em;
+}
+.blockC {
+    margin-top: 3em;
+    margin-right: 2em;
+    line-height: 1em;
+    letter-spacing: 0.02em;
+    width: 35%;
+    
+}
+.line {
+    height: 0.5em;
+    width: 6.5em;
+}
