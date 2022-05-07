@@ -1,0 +1,14 @@
+.addresses__info {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr 4fr;
+}
+
+.addresses__contact,
+.addresses__title {
+    margin: 0 20px;
+}
+
+.addresses__bg {
+    padding: 20px;
+}
