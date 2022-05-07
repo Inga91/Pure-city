@@ -1,3 +1,5 @@
+@import url(/assets/styles/footer.css);
+
 .pure-city-program {
     display: flex;
     flex-direction: row;
@@ -12,8 +14,8 @@
 }
 
 .pure-city-picture {
-    height: auto; 
-    width: 500px; 
+    height: auto;
+    width: 500px;
     box-shadow: 15px 15px 1px #68a5ff;
 
 }
@@ -25,23 +27,27 @@
     margin-bottom: 20px;
     margin-top: 20px;
 }
+
 .mainL {
     display: flex;
-flex-flow: row;
+    flex-flow: row;
 }
+
 .clean {
     height: 25%;
     width: 25%;
     margin: 4em;
 }
+
 .blockC {
     margin-top: 3em;
     margin-right: 2em;
     line-height: 1em;
     letter-spacing: 0.02em;
     width: 35%;
-    
+
 }
+
 .line {
     height: 0.5em;
     width: 6.5em;
