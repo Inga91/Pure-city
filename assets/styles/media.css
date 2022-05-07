@@ -41,14 +41,14 @@
 }
 
 @media screen and (min-width: 767px) and (max-width: 1023px) {
- 
+
     .logo {
         top: 1rem;
         left: 1rem;
         width: 9rem;
         height: 7.5rem;
       }
- 
+
     #navbar {
     display: none;
   }
