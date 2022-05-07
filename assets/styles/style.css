@@ -13,6 +13,8 @@
     padding: 20px;
 }
 
+@import url(/assets/styles/footer.css);
+
 .pure-city-program {
     display: flex;
     flex-direction: row;
