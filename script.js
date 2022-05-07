@@ -1,0 +1,7 @@
+function change(){
+    switch (document.getElementById("point").value){
+        case "lub": document.getElementById('iFrame').src = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d35999.42442390868!2d37.88536520982557!3d55.67222570827555!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x414ac9a24617ddab%3A0xadd8dafa914e4d5f!2z0J_QvtC70LjQs9C-0L0g0KLQkdCeINCa0L7RgNC10L3QtdCy0L4!5e0!3m2!1sru!2srs!4v1651922755343!5m2!1sru!2srs"; break;
+        case "pushk": document.getElementById('iFrame').src = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2230.097919978683!2d37.881927934126516!3d56.01697671708835!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b52936b7e224f9%3A0xe7712a1d6c35f312!2z0J_QsNC90LTQsNCf0LDRgNC6INCf0YPRiNC60LjQvdC-INCy0LXRgNC10LLQvtGH0L3Ri9C5INC_0LDRgNC6!5e0!3m2!1sru!2srs!4v1651925771862!5m2!1sru!2srs"; break;
+        case "reut": document.getElementById('iFrame').src = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d17959.6463828883!2d37.854025342965166!3d55.75927005551342!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x414aca4d99765559%3A0xcbf82e8993644c7b!2z0JPQvtGA0L7QtNGB0LrQvtC5INCg0LXRg9GC0L7QstGB0LrQuNC5INCf0LDRgNC6!5e0!3m2!1sru!2srs!4v1651926574484!5m2!1sru!2srs"; break;
+    }
+    }
