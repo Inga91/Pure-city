@@ -318,6 +318,19 @@ p {
 .banner__block-btn > a:hover {
   color: #5df75d;
   text-decoration: none;
+.addresses__info {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr 4fr;
+}
+
+.addresses__contact,
+.addresses__title {
+    margin: 20px 0;
+}
+
+.addresses__bg {
+    padding: 20px;
 }
 
 @import url(/assets/styles/footer.css);

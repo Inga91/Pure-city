@@ -103,13 +103,15 @@
           </div>
         </div>
       </div>
-      <div class="mainL">
-        <img class="clean" src="image/clean.jpg" alt="clean">
+
+    <main class="container">
+    <div class="mainL">
+        <img class="clean" src="assets/pictures/clean.jpg" alt="clean">
         <div class="blockC">
             <h2>
                 О лагере
             </h2>
-            <img class="line" src="assets/pictures/clean.jpg" alt="line">
+            <img class="line" src="assets/pictures/line.png" alt="line">
             <p>
                 Мы любим наш город и хотим, чтоб он стал еще более уютным и чистым!
                 <br/>
@@ -137,11 +139,39 @@
                 ● Рабочий инвентарь<br>
                 ● Завтрак и обед<br>
                 ● Постоянный присмотр за детьми профессиональными вожатыми<br>
+                </div>
             </div>
+            <div> <img class="pure-city-picture" src="assets/pictures/program.jpg" alt="альтернативный текст"> </div>
         </div>
-        <div> <img class="pure-city-picture" src="assets/pictures/program.jpg" alt="альтернативный текст"> </div>
-    </div>
+
+        <!--Section addresses start-->
+        <section class="addresses">
+            <div class="container addresses__bg">
+                <h2 class="addresses__title">Локации</h2>
+                <div class="addresses__info">
+
+                    <select size="1" id="point" onchange="change()">
+                        <option value="lub" selected="selected">Люберцы</option>
+                        <option value="reut">Реутов</option>
+                        <option value="pushk">Пушкино</option>
+                    </select>
+
+                    <div class="address__map">
+                        <iframe id="iFrame"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d35999.42442390868!2d37.88536520982557!3d55.67222570827555!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x414ac9a24617ddab%3A0xadd8dafa914e4d5f!2z0J_QvtC70LjQs9C-0L0g0KLQkdCeINCa0L7RgNC10L3QtdCy0L4!5e0!3m2!1sru!2srs!4v1651922755343!5m2!1sru!2srs"
+                            width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                    </div>
+                </div>
+
+                <h3 class="addresses__contact">Вы можете связаться с нами и предложить адрес для уборки!</h3>
+            </div>
+        </section>
+        <!--Section addresses end-->
+
     </main>
+    
 
 <!--Footer start-->
 <footer class="footer">
@@ -164,7 +194,7 @@
     </div>
 </footer>
 <!--Footer end-->
-
+    
     <script src="script.js"></script>
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
