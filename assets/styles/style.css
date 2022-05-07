@@ -514,3 +514,16 @@ p {
     box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6),
       inset 2px 2px 3px rgba(0, 0, 0, 0.6);
   }
+
+  @media (max-width: 850px) {
+  .register-blok__columns {
+      flex-direction: column;
+  }
+}
+
+@media (max-width: 650px) {
+    .register-blok__title{
+font-size: 7vw;
+    }
+    
+  }
